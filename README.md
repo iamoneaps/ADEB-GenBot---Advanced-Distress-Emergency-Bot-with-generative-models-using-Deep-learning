@@ -9,6 +9,7 @@ In situations involving criminal acts, for example kidnapping, blackmailing etc,
 
 
 Solution
+
 We built a pipeline based on the state-of-the-art Inertial Measurement Unit using Arduino, MATLAB and Tensorflow to recognise a specific pre-decided hand gesture in the case of an emergency. If such a gesture is detected, a distress alert is automatically sent to the emergency contact of that person to take further action.
 
 Our team integrated Arduino sitting on top of MATLAB computation engine to get live stream accelerometer and gyroscopic data from a BNO055 Inertial Measurement Unit (IMU) attached to a person's wrist and sampling at a frequency of 20 Hz. MATLAB is required to process the 6 dimensional continous data stream from the IMU.
